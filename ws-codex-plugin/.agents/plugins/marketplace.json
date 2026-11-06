@@ -1,0 +1,20 @@
+{
+  "name": "ws-codex-plugin-local",
+  "interface": {
+    "displayName": "WS Codex Plugin (Local)"
+  },
+  "plugins": [
+    {
+      "name": "ws-codex-plugin",
+      "source": {
+        "source": "local",
+        "path": "."
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
